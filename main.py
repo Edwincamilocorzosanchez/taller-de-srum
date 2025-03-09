@@ -3,6 +3,7 @@ import modulos.utils.agregar as ag
 import os
 import modulos.utils.corefiles as cf
 import modulos.utils.listar as li
+import modulos.utils.editar as ed
 def mostrar_menu():
     productos= cf.cargar_datos()
     print(mn.MENU)
@@ -25,6 +26,9 @@ def mostrar_menu():
                 os.system('pause')
                 return mostrar_menu()
             case 3:
+                os.system('cls')
+                ed.editar_elemento(productos)
+                os.system('pause')
                 return mostrar_menu()
             case 4:
                 return mostrar_menu()
