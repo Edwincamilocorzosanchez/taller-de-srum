@@ -2,6 +2,7 @@ import modulos.menus as mn
 import modulos.utils.agregar as ag
 import os
 import modulos.utils.corefiles as cf
+import modulos.utils.listar as li
 def mostrar_menu():
     productos= cf.cargar_datos()
     print(mn.MENU)
@@ -19,6 +20,9 @@ def mostrar_menu():
                 os.system('pause')
                 return mostrar_menu()
             case 2:
+                os.system('cls')
+                li.listar_productos(productos)
+                os.system('pause')
                 return mostrar_menu()
             case 3:
                 return mostrar_menu()

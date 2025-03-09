@@ -48,14 +48,14 @@ def agregar_producto(productos):
     except ValueError:
         print('valor invalido')
         return agregar_producto()
-    aseo ={
-        id:{
-            "tipo":tipo,
-           "nombre": nombre,
-           "precio": precio,
-           "fecha": fecha,
-           "cantidad": cantidad
-        }
+    nuevo_producto={
+        "id":id,
+        "tipo":tipo,
+        "nombre": nombre,
+        "precio": precio,
+        "fecha": fecha,
+        "cantidad": cantidad
+        
     }
-    productos.append(aseo)
+    productos.append(nuevo_producto)
     cf.guardar_datos(productos)

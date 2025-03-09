@@ -1,5 +1,5 @@
 import json
-ARCHIVO_JSON="data/datos.json"
+ARCHIVO_JSON="data/productos.json"
 def cargar_datos():
     """
     Carga la colección desde el archivo JSON.
