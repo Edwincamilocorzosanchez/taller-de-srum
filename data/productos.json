@@ -1,18 +1,1 @@
-[
-    {
-        "id": 34,
-        "tipo": "aseo",
-        "nombre": "gg",
-        "precio": 44,
-        "fecha": "gg",
-        "cantidad": 5
-    },
-    {
-        "id": 4455,
-        "tipo": "despensa",
-        "nombre": "carne cerdo",
-        "precio": 6000,
-        "fecha": "24/08/2025",
-        "cantidad": 50
-    }
-]
+[]

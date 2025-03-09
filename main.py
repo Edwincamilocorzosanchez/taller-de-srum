@@ -4,6 +4,8 @@ import os
 import modulos.utils.corefiles as cf
 import modulos.utils.listar as li
 import modulos.utils.editar as ed
+import modulos.utils.buscar as bu
+import modulos.utils.eliminar as el
 def mostrar_menu():
     productos= cf.cargar_datos()
     print(mn.MENU)
@@ -31,8 +33,14 @@ def mostrar_menu():
                 os.system('pause')
                 return mostrar_menu()
             case 4:
+                os.system('cls')
+                bu.buscar_elemento(productos)
+                os.system('pause')
                 return mostrar_menu()
             case 5:
+                os.system('cls')
+                el.eliminar_elemento(productos)
+                os.system('pause')
                 return mostrar_menu()
             case 6:
                 os.system('cls')
