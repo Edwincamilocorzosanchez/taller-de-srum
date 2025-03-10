@@ -2,11 +2,13 @@ MENU ="""
 ***********************
 ****MENU PRINCIPAL ****
 ***********************
-1. Agregar producto
-2. Ver productos
-3. Editar producto
-4. Buscar producto
-5. Eliminar producto
-6. ventas
-7. Salir
+1. Registrar usuario
+2. Iniciar sesion
+3. Agregar producto
+4. Ver productos
+5. Editar producto
+6. Buscar producto
+7. Eliminar producto
+8. ventas
+9. Salir
 """

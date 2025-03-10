@@ -14,5 +14,13 @@
         "precio": 5000,
         "fecha": "23/07/2025",
         "cantidad": 50
+    },
+    {
+        "id": 34,
+        "tipo": "aseo",
+        "nombre": "jabon aseo",
+        "precio": 5000,
+        "fecha": "30/08/2025",
+        "cantidad": 500
     }
 ]
