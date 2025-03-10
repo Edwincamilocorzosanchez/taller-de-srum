@@ -6,6 +6,7 @@ import modulos.utils.listar as li
 import modulos.utils.editar as ed
 import modulos.utils.buscar as bu
 import modulos.utils.eliminar as el
+import modulos.utils.ventas as ve
 def mostrar_menu():
     productos= cf.cargar_datos()
     print(mn.MENU)
@@ -43,6 +44,11 @@ def mostrar_menu():
                 os.system('pause')
                 return mostrar_menu()
             case 6:
+                os.system('cls')
+                ve.registrar_venta(productos)
+                os.system('pause')
+                return mostrar_menu
+            case 7:
                 os.system('cls')
                 print('saliendo del programa')
                 os.system('pause')
