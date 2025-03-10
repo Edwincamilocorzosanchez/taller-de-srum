@@ -35,19 +35,19 @@ def agregar_producto(productos):
         id = int(input('ingrese el id del producto: '))
     except ValueError:
         print('valor invalido')
-        return agregar_producto()
+        return agregar_producto(productos)
     nombre = input('ingrese el nombre del producto:')
     try:
         precio= int(input('ingrese el precio del producto: '))
     except ValueError:
         print('valor invalido')
-        return agregar_producto()
+        return agregar_producto(productos)
     fecha= input('Ingrese la fecha de entrada en formato DD/MM/AA:')
     try:
         cantidad =int(input('Ingrese la cantidad de producto ingresado:'))
     except ValueError:
         print('valor invalido')
-        return agregar_producto()
+        return agregar_producto(productos)
     nuevo_producto={
         "id":id,
         "tipo":tipo,
